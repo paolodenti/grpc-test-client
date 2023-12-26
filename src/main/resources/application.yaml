@@ -1,0 +1,12 @@
+grpc:
+  client:
+    grpc-server:
+      address: ${GRPC_SERVER_ADDRESS:static://localhost:9090}
+      negotiation-type: ${GRPC_SERVER_NEGOTIATION_TYPE:plaintext}
+  server:
+    port: ${GRPC_PORT:9091}
+
+logging:
+  level:
+    root: INFO
+    com.github.paolodenti: DEBUG
