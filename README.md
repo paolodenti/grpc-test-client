@@ -1,3 +1,3 @@
-# GRPC Test Client
+# GRPC Test Client - Spring Boot
 
 This is a simple gRPC client that can be used to test the gRPC server.
